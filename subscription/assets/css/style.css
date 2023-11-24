@@ -1,0 +1,46 @@
+.newsletter {
+    width: 500px;
+    margin: 0 auto;
+    background: rgb(240, 237, 198);
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  form{
+    margin-left: 6rem;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: rgb(35, 121, 219);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-group input[type="submit"]:hover{
+    background-color: rgb(37, 83, 136);
+  }
