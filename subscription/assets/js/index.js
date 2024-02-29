@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
             body: data,
         })
         .then(() => {
-            alert("You have successfully subscribed to Imaara Newsletter");
+            alert("You have successfully subscribed to the Newsletter");
         })
     })
 })
